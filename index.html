@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- ICon -->
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <input type="checkbox" id="nav" class="hidden" />
+        <label for="nav" class="nav-btn">
+          <i></i>
+          <i></i>
+          <i></i>
+        </label>
+
+        <div class="logoDiv">
+          <a href="#">
+            <img src="./assets/img/logo.png" alt="" class="logo" />
+          </a>
+        </div>
+        
+
+        <div class="menu-R">
+          <ul class="menu">
+            <li><a href="#sobre" class="item-menu active-link">Sobre</a></li>
+            <li><a href="#cctc" class="item-menu">CCTC</a></li>
+            <li><a href="#desafios" class="item-menu">Desafios</a></li>
+            <li><a href="#conquistas" class="item-menu">Conquistas</a></li>
+            <li><a href="#habilidades" class="item-menu">Habilidades</a></li>
+            <li><a href="#projetos" class="item-menu">Projetos</a></li>
+            <li><a href="#depoimento" class="item-menu">Depoimento</a></li>
+            <li><a href="#contatos" class="item-menu">Contatos</a></li>
+          </ul>
+        </div>
+
+        
+      </nav>
+    </header>
+
+    <main>
+ <!-- Home -->
+    <section class="home section" id="home">
+      <div class="left-home">
+        
+        <img src="./assets/img/dev-home.jpeg" alt="" class="imgDev" />
+      </div>
+      <div class="right-home">
+        <h2 class="text-1">Olá, meu nome é Renata</h2>
+        <h1 class="text-2">Programadora Front-End</h1>
+        <p class="descricao-1">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+          recusandae aliquam, quia vitae ducimus, totam iusto voluptatem animi
+          magni maiores quidem vero ut fuga pariatur id repellat. Ratione, ex
+          omnis!
+        </p>
+        <div class="botao-contatos">
+          <a href="#contatos" class="item-bt-contatos"
+            >Contatos
+            <i
+              class="fas fa-paper-plane"
+              aria-hidden="true"
+              id="button-icon"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre section" id="sobre">
+      <div class="t_animation">
+        <h2>Sobre</h2>
+        <h2>Sobre</h2>
+      </div>
+      <div class="container_sobre">
+        <p class="descricao_sobre">
+          Tenho 28 anos de idade, atualmente desempenho minhas funções na área de
+          atendimento no Centro Universitário Uninassau. Desde sempre, nutri um
+          profundo interesse pela programação e tecnologia da informação (T.I),
+          embora a oportunidade de realizar um curso técnico nessa área nunca
+          tenha surgido. Tudo o que aprendi, conquistei por conta própria,
+          trilhando uma jornada autodidata repleta de pesquisa, leituras e
+          prática. </br>
+          Minha busca incessante por conhecimento e minha capacidade de
+          aprender de forma independente me permitiram explorar os meandros da
+          programação e T.I por meio de livros, tutoriais online e fóruns de
+          discussão. Considero-me uma autodidata, não apenas pela determinação
+          em adquirir conhecimento por conta própria, mas também pela habilidade
+          de superar desafios sem depender de uma educação formal, e estou
+          ansioso para continuar minha jornada de excelência nesse campo em
+          constante evolução.
+        </p>
+        <img src="./assets/img/about.jpg" alt="Programando" class="imgSobre" />
+      </div>
+    </section>
+
+    <!-- CCTC -->
+    <section class="cctc section" id="cctc">
+      <div class="t_animation">
+        <h2>CCTC</h2>
+        <h2>CCTC</h2>
+      </div>
+      <h3 class="subTitulo_cctc">(Como tudo começou)</h3>
+      <div class="container_cctc">
+        <img src="./assets/img/cctc.jpg" alt="Programando" class="imgCctc" />
+        <p class="descricao_cctc">
+          Minha introdução ao Elas na Tech aconteceu de forma casual, quando deparei com um status compartilhado por alguém que conheço. Intrigada pela proposta, decidi me inscrever por meio do site oficial e, para minha surpresa e felicidade, fui selecionada para fazer parte desse programa inspirador. </br>
+          O encontro fortuito com o Elas na Tech representou um ponto de virada em minha jornada, proporcionando uma oportunidade única de crescimento e aprendizado no campo da tecnologia. Desde então, tenho me dedicado com entusiasmo a esse novo desafio e estou ansiosa para explorar todas as possibilidades e conhecimentos que ele tem a oferecer.
+        </p>
+      </div>
+    </section>
+
+    <!-- Desafios -->
+    <section class="desafios section" id="desafios">
+      <div class="t_animation">
+        <h2>Desafios</h2>
+        <h2>Desafios</h2>
+      </div>
+      <h3 class="subTitulo_desafios">(Quais desafios foram superados?)</h3>
+      <div class="container_desafios">
+        <p class="descricao_desafios">
+          A cada novo desafio e aula propostos, especialmente quando se trata do meu primeiro contato com códigos e o ambiente do Visual Studio Code (vsCode), tudo se revela como um território inexplorado. No entanto, mantenho uma atitude de curiosidade incessante, sempre em busca de aprender não apenas o que é ensinado na plataforma, mas também procurando por informações adicionais e recursos complementares.
+        </p>
+        <img src="./assets/img/desafios.jpg" alt="Programando" class="imgDesafios" />
+        <p class="descricao_desafios">
+          Cada obstáculo se transforma em uma oportunidade para expandir meu conhecimento, e minha determinação em compreender mais profundamente os conceitos da programação e do vsCode me impulsiona constantemente a ir além dos limites estabelecidos. Essa jornada de aprendizado contínuo me motiva a explorar novos horizontes e aperfeiçoar minhas habilidades na área da tecnologia.
+        </p>
+      </div>
+    </section>
+
+    <!-- Conquistas -->
+    <section class="conquistas section" id="conquistas">
+      <div class="t_animation">
+        <h2>Conquistas</h2>
+        <h2>Conquistas</h2>
+      </div>
+      <h3 class="subTitulo_conquistas">(Quais foram suas conquistas até aqui?)</h3>
+      <div class="container_conquistas">
+        <p class="descricao_conquistas">
+          Cada desafio superado representa um marco importante em minha jornada de aprendizado e crescimento. Com empenho e dedicação, tenho a satisfação de ver meu progresso refletido em cada tarefa concluída e entregue com sucesso.
+        </p>
+        <img src="./assets/img/conquistas.jpg" alt="Programando" class="imgConquistas" />
+        <p class="descricao_conquistas">
+          Essas pequenas vitórias diárias me motivam continuamente, reforçando minha confiança e impulsionando-me a buscar desafios ainda maiores. Através de cada conquista, estou construindo um sólido alicerce de conhecimento e experiência que me prepara para enfrentar o que quer que o futuro reserve.
+        </p>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="habilidades section" id="habilidades">
+        <div class="t_animation">
+          <h2>Habilidades</h2>
+          <h2>Habilidades</h2>
+        </div>
+        
+        <div class="habilidades_icons">
+          <div class="emcima_habiliades">
+            <div class="icons_habilidades"><img src="./assets/icons/HTML.svg" alt="" class="icon"></div>
+            <div class="icons_habilidades"><img src="./assets/icons/CSS.svg" alt="" class="icon"></div>
+            <div class="icons_habilidades"><img src="./assets/icons/JS.svg" alt="" class="icon"></div>
+          </div>
+          <div class="embaixo_habilidades">
+            <div class="icons_habilidades"><img src="./assets/icons/FIGMA.svg" alt="" class="icon"></div>
+            <div class="icons_habilidades"><img src="./assets/icons/CANVA.svg" alt="" class="icon"></div>
+            <div class="icons_habilidades"><img src="./assets/icons/Python-Dark.svg" alt="" class="icon"></div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="projetos section" id="projetos">
+      <div class="t_animation">
+        <h2>Projetos</h2>
+        <h2>Projetos</h2>
+      </div>
+      <div class="listProjetos">
+
+        <!-- Flores -->
+        <div class="dataProjetos">
+          <a href="#" target="_blank">
+            <img src="./assets/img/imgProjetos/1.jpeg" alt="" class="imgProjetos">
+            <div class="botaoProjetos">
+              <a href="https://renatasoouza.github.io/flores/" class="botaoPreview" target="_blank">Preview</a>
+              <a href="https://github.com/RenataSoouza/flores" class="botaoCode" target="_blank">Code</a>
+            </div>
+          </a>
+          <div class="textProjetos">
+            <p class="nameHTML">HTML</p>
+            <p class="nameCSS">CSS</p>
+            <p class="nameJS">JS</p>
+          </div>
+        </div>
+
+        <!-- Vingadores -->
+        <div class="dataProjetos">
+          <a href="#" target="_blank">
+            <img src="./assets/img/imgProjetos/2.jpg" alt="" class="imgProjetos">
+            <div class="botaoProjetos">
+              <a href="https://renatasoouza.github.io/Vingadores/" class="botaoPreview" target="_blank">Preview</a>
+              <a href="https://github.com/RenataSoouza/Vingadores" class="botaoCode" target="_blank">Code</a>
+            </div>
+          </a>
+          <div class="textProjetos">
+            <p class="nameHTML">HTML</p>
+            <p class="nameCSS">CSS</p>
+            <p class="nameJS">JS</p>
+          </div>
+        </div>
+
+        <!-- Rebelde -->
+        <div class="dataProjetos">
+          <a href="#" target="_blank">
+            <img src="./assets/img/imgProjetos/3.jpg" alt="" class="imgProjetos">
+            <div class="botaoProjetos">
+              <a href="https://renatasoouza.github.io/rebelde/" class="botaoPreview" target="_blank">Preview</a>
+              <a href="https://github.com/RenataSoouza/rebelde" class="botaoCode" target="_blank">Code</a>
+            </div>
+          </a>
+          <div class="textProjetos">
+            <p class="nameHTML">HTML</p>
+            <p class="nameCSS">CSS</p>
+            <p class="nameJS">JS</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="listProjetos">
+        <!-- Responsividade -->
+        <div class="dataProjetos">
+          <a href="#" target="_blank">
+            <img src="./assets/img/imgProjetos/4.jpg" alt="" class="imgProjetos">
+            <div class="botaoProjetos">
+              <a href="https://renatasoouza.github.io/responsividade/" class="botaoPreview" target="_blank">Preview</a>
+              <a href="https://github.com/RenataSoouza/responsividade" class="botaoCode" target="_blank">Code</a>
+            </div>
+          </a>
+          <div class="textProjetos">
+            <p class="nameHTML">HTML</p>
+            <p class="nameCSS">CSS</p>
+            <p class="nameJS">JS</p>
+          </div>
+        </div>
+
+        <!-- Javascript Estudos -->
+        <div class="dataProjetos">
+          <a href="#" target="_blank">
+            <img src="./assets/img/imgProjetos/5.png" alt="" class="imgProjetos">
+            <div class="botaoProjetos">
+              <a href="https://renatasoouza.github.io/Javascript-estudos/" class="botaoPreview" target="_blank">Preview</a>
+              <a href="https://github.com/RenataSoouza/Javascript-estudos" class="botaoCode" target="_blank">Code</a>
+            </div>
+          </a>
+          <div class="textProjetos">
+            <p class="nameHTML">HTML</p>
+            <p class="nameCSS">CSS</p>
+            <p class="nameJS">JS</p>
+          </div>
+        </div>
+
+        <!-- Calculadora -->
+        <div class="dataProjetos">
+          <a href="#" target="_blank">
+            <img src="./assets/img/cctc.jpg" alt="" class="imgProjetos">
+            <div class="botaoProjetos">
+              <a href="https://renatasoouza.github.io/calculadora/" class="botaoPreview" target="_blank">Preview</a>
+              <a href="https://github.com/RenataSoouza/calculadora" class="botaoCode" target="_blank">Code</a>
+            </div>
+          </a>
+          <div class="textProjetos">
+            <p class="nameHTML">HTML</p>
+            <p class="nameCSS">CSS</p>
+            <p class="nameJS">JS</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="listProjetos">
+        <!-- Foguete -->
+        <div class="dataProjetos">
+          <a href="#" target="_blank">
+            <img src="./assets/img/imgProjetos/7.png" alt="" class="imgProjetos">
+            <div class="botaoProjetos">
+              <a href="https://renatasoouza.github.io/foguete/" class="botaoPreview" target="_blank">Preview</a>
+              <a href="https://github.com/RenataSoouza/foguete" class="botaoCode" target="_blank">Code</a>
+            </div>
+          </a>
+          <div class="textProjetos">
+            <p class="nameHTML">HTML</p>
+            <p class="nameCSS">CSS</p>
+            <p class="nameJS">JS</p>
+          </div>
+        </div>
+
+        <!-- Projeto Inicial -->
+        <div class="dataProjetos">
+          <a href="#" target="_blank">
+            <img src="./assets/img/conquistas.jpg" alt="" class="imgProjetos">
+            <div class="botaoProjetos">
+              <a href="https://renatasoouza.github.io/projetoinicial/" class="botaoPreview" target="_blank">Preview</a>
+              <a href="https://github.com/RenataSoouza/projetoinicial" class="botaoCode" target="_blank">Code</a>
+            </div>
+          </a>
+          <div class="textProjetos">
+            <p class="nameHTML">HTML</p>
+            <p class="nameCSS">CSS</p>
+            <p class="nameJS">JS</p>
+          </div>
+        </div>
+
+        <!-- Super Mario -->
+        <div class="dataProjetos">
+          <a href="#" target="_blank">
+            <img src="./assets/img/imgProjetos/9.jpeg" alt="" class="imgProjetos">
+            <div class="botaoProjetos">
+              <a href="https://renatasoouza.github.io/jogosimulacao/" class="botaoPreview" target="_blank">Preview</a>
+              <a href="https://github.com/RenataSoouza/jogosimulacao" class="botaoCode" target="_blank">Code</a>
+            </div>
+          </a>
+          <div class="textProjetos">
+            <p class="nameHTML">HTML</p>
+            <p class="nameCSS">CSS</p>
+            <p class="nameJS">JS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimento -->
+    <section class="depoimento section" id="depoimento">
+      <div class="t_animation">
+        <h2>Depoimento</h2>
+        <h2>Depoimento</h2>
+      </div>
+      <div class="video">
+        <video src="./assets/Vídeo do WhatsApp de 2023-10-02 à(s) 20.26.08_3df29c89.mp4" controls repet></video>
+      </div>
+    </section>
+
+    <!-- Contatos -->
+    <footer class="contatos section" id="contatos">
+      <div class="t_animation">
+        <h2>Contatos</h2>
+        <h2>Contatos</h2>
+      </div>
+
+      <div class="listContatos">
+        <div class="dataContatos">
+          <img src="./assets/img/image 1.jpg" alt="" class="imgContatos">
+          <a href="https://www.linkedin.com/in/renatasoouza?trk=contact-info" class="textContatos">Renatasoouza</a>
+        </div>
+        <div class="dataContatos">
+          <img src="./assets/img/image 2.jpg" alt="" class="imgContatos">
+          <a href="https://github.com/RenataSoouza" class="textContatos">Renatasoouza</a>
+        </div>
+
+        <div class="dataContatos">
+          <img src="./assets/img/gmail.png" alt="" class="imgContatosGmail">
+          <a href="mailto:renata-fjb@hotmail.com" class="textContatos">Renatasoouza</a>
+        </div>
+      </div>
+    </footer>
+    </main>
+   
+
+    <!-- JS -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
